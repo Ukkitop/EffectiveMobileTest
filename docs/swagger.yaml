@@ -1,0 +1,41 @@
+info:
+  contact: {}
+paths:
+  /data:
+    delete:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses: {}
+      summary: delete data endpoint
+      tags:
+      - Data delete
+    get:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses: {}
+      summary: get data endpoint
+      tags:
+      - Data create
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses: {}
+      summary: create data endpoint
+      tags:
+      - Data create
+    put:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses: {}
+      summary: update data endpoint
+      tags:
+      - Data update
+swagger: "2.0"
